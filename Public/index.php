@@ -2,20 +2,22 @@
 
 // use Router\Router;
 
+use Router\Router;
+use Source\App;
+
 require './../vendor/autoload.php';
 
-// $router = new Router();
+// Definit ou est le dossier des views
+define('BASE_VIEW_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR . 'Views' . DIRECTORY_SEPARATOR);
+// On invoque le routeur
+$router = new Router();
 
-// var_dump($router);
+// on enregistre la route dans la variable route du router
+$router->register('/', ['Controllers\HomeController', 'index']);
 
-// $router->register('/', function () {
-//   return 'HomePage';
-// });
-
+// // on enregistre la route dans la variable route du router
 // $router->register('/contact', function () {
 //   return 'ContactPage';
 // });
 
-// echo $router->resolve($_SERVER['REQUEST_URI']);
-
-echo 'sdfsdfsdf';
+(new App($router, $_SERVER['REQUEST_URI']))->run();

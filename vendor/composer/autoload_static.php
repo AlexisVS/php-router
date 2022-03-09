@@ -7,6 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
 {
     public static $prefixLengthsPsr4 = array (
+        'V' => 
+        array (
+            'Views\\' => 6,
+        ),
+        'S' => 
+        array (
+            'Source\\' => 7,
+        ),
         'R' => 
         array (
             'Router\\' => 7,
@@ -15,6 +23,10 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
         array (
             'Exceptions\\' => 11,
         ),
+        'C' => 
+        array (
+            'Controllers\\' => 12,
+        ),
         'A' => 
         array (
             'Alexisvs\\CreeUnRouter\\' => 22,
@@ -22,6 +34,14 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
     );
 
     public static $prefixDirsPsr4 = array (
+        'Views\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Views',
+        ),
+        'Source\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Router\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Router',
@@ -29,6 +49,10 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
         'Exceptions\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Exceptions',
+        ),
+        'Controllers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Controllers',
         ),
         'Alexisvs\\CreeUnRouter\\' => 
         array (
@@ -38,8 +62,11 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Controllers\\HomeController' => __DIR__ . '/../..' . '/Controllers/HomeController.php',
         'Exceptions\\RouteNotFoundException' => __DIR__ . '/../..' . '/Exceptions/RouteNotFoundException.php',
         'Router\\Router' => __DIR__ . '/../..' . '/Router/Router.php',
+        'Source\\App' => __DIR__ . '/../..' . '/src/App.php',
+        'Source\\Renderer' => __DIR__ . '/../..' . '/src/Renderer.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

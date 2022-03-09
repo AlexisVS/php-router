@@ -4,7 +4,10 @@
         "psr-4": {
             "Alexisvs\\CreeUnRouter\\": "Public/",
             "Router\\": "Router/",
-            "Exceptions\\": "Exceptions/"
+            "Exceptions\\": "Exceptions/",
+            "Controllers\\": "Controllers/",
+            "Source\\": "src/",
+            "Views\\": "Views/"
         }
     },
     "authors": [

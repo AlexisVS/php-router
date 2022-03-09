@@ -6,7 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Views\\' => array($baseDir . '/Views'),
+    'Source\\' => array($baseDir . '/src'),
     'Router\\' => array($baseDir . '/Router'),
     'Exceptions\\' => array($baseDir . '/Exceptions'),
+    'Controllers\\' => array($baseDir . '/Controllers'),
     'Alexisvs\\CreeUnRouter\\' => array($baseDir . '/Public'),
 );
