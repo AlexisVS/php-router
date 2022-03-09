@@ -1,0 +1,17 @@
+{
+    "name": "alexisvs/cree-un-router",
+    "autoload": {
+        "psr-4": {
+            "Alexisvs\\CreeUnRouter\\": "Public/",
+            "Router\\": "Router/",
+            "Exceptions\\": "Exceptions/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlexisVS",
+            "email": "63750707+AlexisVS@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
