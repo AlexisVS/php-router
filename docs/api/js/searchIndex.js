@@ -21,6 +21,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Exceptions-RouteNotFoundException.html#property_message"
         },                {
+            "fqsen": "\\BASE_VIEW_PATH",
+            "name": "BASE_VIEW_PATH",
+            "summary": "",
+            "url": "namespaces/default.html#constant_BASE_VIEW_PATH"
+        },                {
             "fqsen": "\\Router\\Router",
             "name": "Router",
             "summary": "",
@@ -361,10 +366,80 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Composer-InstalledVersions.html#property_installedByVendor"
         },                {
+            "fqsen": "\\Class\\Database\\Database",
+            "name": "Database",
+            "summary": "",
+            "url": "classes/Class-Database-Database.html"
+        },                {
+            "fqsen": "\\Class\\Database\\Database\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Class-Database-Database.html#method___construct"
+        },                {
+            "fqsen": "\\Class\\Database\\Database\u003A\u003Aconnexion\u0028\u0029",
+            "name": "connexion",
+            "summary": "Connection\u0020To\u0020DB",
+            "url": "classes/Class-Database-Database.html#method_connexion"
+        },                {
+            "fqsen": "\\Controllers\\UserController",
+            "name": "UserController",
+            "summary": "",
+            "url": "classes/Controllers-UserController.html"
+        },                {
+            "fqsen": "\\Controllers\\UserController\u003A\u003Aindex\u0028\u0029",
+            "name": "index",
+            "summary": "",
+            "url": "classes/Controllers-UserController.html#method_index"
+        },                {
+            "fqsen": "\\Controllers\\UserController\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/Controllers-UserController.html#method_create"
+        },                {
+            "fqsen": "\\Controllers\\UserController\u003A\u003Astore\u0028\u0029",
+            "name": "store",
+            "summary": "",
+            "url": "classes/Controllers-UserController.html#method_store"
+        },                {
+            "fqsen": "\\Source\\App",
+            "name": "App",
+            "summary": "",
+            "url": "classes/Source-App.html"
+        },                {
+            "fqsen": "\\Source\\App\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Source-App.html#method___construct"
+        },                {
+            "fqsen": "\\Source\\App\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/Source-App.html#method_run"
+        },                {
+            "fqsen": "\\Source\\App\u003A\u003A\u0024router",
+            "name": "router",
+            "summary": "",
+            "url": "classes/Source-App.html#property_router"
+        },                {
+            "fqsen": "\\Source\\App\u003A\u003A\u0024requestUri",
+            "name": "requestUri",
+            "summary": "",
+            "url": "classes/Source-App.html#property_requestUri"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
             "url": "namespaces/default.html"
+        },                {
+            "fqsen": "\\Class\\Database",
+            "name": "Database",
+            "summary": "",
+            "url": "namespaces/class-database.html"
+        },                {
+            "fqsen": "\\Class",
+            "name": "Class",
+            "summary": "",
+            "url": "namespaces/class.html"
         },                {
             "fqsen": "\\Controllers",
             "name": "Controllers",
@@ -380,6 +455,11 @@ Search.appendIndex(
             "name": "Router",
             "summary": "",
             "url": "namespaces/router.html"
+        },                {
+            "fqsen": "\\Source",
+            "name": "Source",
+            "summary": "",
+            "url": "namespaces/source.html"
         },                {
             "fqsen": "\\Composer\\Autoload",
             "name": "Autoload",

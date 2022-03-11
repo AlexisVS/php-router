@@ -21,8 +21,8 @@
     --text-xxxxxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
 
     /* Colors */
-    --primary-color-hue: 280;
-    --primary-color-saturation: 90%;
+    --primary-color-hue: 96;
+    --primary-color-saturation: 57%;
     --primary-color: hsl(var(--primary-color-hue), var(--primary-color-saturation), 60%);
     --primary-color-darken: hsl(var(--primary-color-hue), var(--primary-color-saturation), 40%);
     --primary-color-darker: hsl(var(--primary-color-hue), var(--primary-color-saturation), 20%);
@@ -31,7 +31,6 @@
     --primary-color-lighter: hsl(var(--primary-color-hue), var(--primary-color-saturation), 99%);
     --dark-gray: #d1d1d1;
     --light-gray: #f0f0f0;
-    --background-color: #dbdbdb;
 
     --text-color: var(--primary-color-darkest);
 
@@ -85,7 +84,6 @@ body {
     font-size: var(--text-md);
     letter-spacing: var(--letter-spacing--primary);
     line-height: var(--line-height--primary);
-    background-color: var(--background-color);
 }
 
 .phpdocumentor h1,

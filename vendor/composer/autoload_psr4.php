@@ -9,7 +9,9 @@ return array(
     'Views\\' => array($baseDir . '/Views'),
     'Source\\' => array($baseDir . '/src'),
     'Router\\' => array($baseDir . '/Router'),
+    'Models\\' => array($baseDir . '/Models'),
     'Exceptions\\' => array($baseDir . '/Exceptions'),
     'Controllers\\' => array($baseDir . '/Controllers'),
+    'Class\\' => array($baseDir . '/Class'),
     'Alexisvs\\CreeUnRouter\\' => array($baseDir . '/Public'),
 );

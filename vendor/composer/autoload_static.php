@@ -19,6 +19,10 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
         array (
             'Router\\' => 7,
         ),
+        'M' => 
+        array (
+            'Models\\' => 7,
+        ),
         'E' => 
         array (
             'Exceptions\\' => 11,
@@ -26,6 +30,7 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
         'C' => 
         array (
             'Controllers\\' => 12,
+            'Class\\' => 6,
         ),
         'A' => 
         array (
@@ -46,6 +51,10 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
         array (
             0 => __DIR__ . '/../..' . '/Router',
         ),
+        'Models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Models',
+        ),
         'Exceptions\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Exceptions',
@@ -54,6 +63,10 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
         array (
             0 => __DIR__ . '/../..' . '/Controllers',
         ),
+        'Class\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Class',
+        ),
         'Alexisvs\\CreeUnRouter\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Public',
@@ -61,11 +74,16 @@ class ComposerStaticInitcef792a0fd6eea760c46f644e61729c1
     );
 
     public static $classMap = array (
+        'Class\\Database\\Database' => __DIR__ . '/../..' . '/Class/Database/Database.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Controllers\\HomeController' => __DIR__ . '/../..' . '/Controllers/HomeController.php',
+        'Controllers\\UserController' => __DIR__ . '/../..' . '/Controllers/UserController.php',
         'Exceptions\\RouteNotFoundException' => __DIR__ . '/../..' . '/Exceptions/RouteNotFoundException.php',
+        'Models\\Model' => __DIR__ . '/../..' . '/Models/Model.php',
+        'Models\\User' => __DIR__ . '/../..' . '/Models/User.php',
         'Router\\Router' => __DIR__ . '/../..' . '/Router/Router.php',
         'Source\\App' => __DIR__ . '/../..' . '/src/App.php',
+        'Source\\Constant' => __DIR__ . '/../..' . '/src/Constant.php',
         'Source\\Renderer' => __DIR__ . '/../..' . '/src/Renderer.php',
     );
 

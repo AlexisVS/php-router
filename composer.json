@@ -7,7 +7,9 @@
             "Exceptions\\": "Exceptions/",
             "Controllers\\": "Controllers/",
             "Source\\": "src/",
-            "Views\\": "Views/"
+            "Views\\": "Views/",
+            "Class\\": "Class/",
+            "Models\\": "Models/"
         }
     },
     "authors": [

@@ -6,10 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Class\\Database\\Database' => $baseDir . '/Class/Database/Database.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Controllers\\HomeController' => $baseDir . '/Controllers/HomeController.php',
+    'Controllers\\UserController' => $baseDir . '/Controllers/UserController.php',
     'Exceptions\\RouteNotFoundException' => $baseDir . '/Exceptions/RouteNotFoundException.php',
+    'Models\\Model' => $baseDir . '/Models/Model.php',
+    'Models\\User' => $baseDir . '/Models/User.php',
     'Router\\Router' => $baseDir . '/Router/Router.php',
     'Source\\App' => $baseDir . '/src/App.php',
+    'Source\\Constant' => $baseDir . '/src/Constant.php',
     'Source\\Renderer' => $baseDir . '/src/Renderer.php',
 );
